@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+
+    >ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        gap: 2rem;
+
+        >li {
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #505F98;
+        }
+    }
+
+    >h1 {
+        font-family: "Roboto", sans-serif;
+        font-size: 26px;
+        font-weight: 900;
+        line-height: 38px;
+        color: #37447E;
+    }
+
+    >button {
+        width: 160px;
+        height: 26px;
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        color: #FFFFFF;
+        background-color: #111B47;
+    }
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    top: 300px;
+    right: 0;
+    position: relative;
+
+    &_div1{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: url('./bc.png');
+
+    }
+
+    &_div2 {
+        display: flex;
+        flex-direction: column;
+        width: 539px;
+
+
+        >h1 {
+            font-family: "Roboto", sans-serif;
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 66px;
+            letter-spacing: 1px;
+            color: #091133;
+        }
+
+        >p {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #505F98;
+        }
+
+    }
+
+    &__button {
+        display: flex;
+        gap: 1rem;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        .btn1{
+            padding: 1rem;
+        }
+    }
+
+
+}
